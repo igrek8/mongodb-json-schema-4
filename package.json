@@ -1,0 +1,38 @@
+{
+  "name": "mongodb-json-schema-4",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "MongoDB JSON Schema (draft-04) used in $jsonSchema validator",
+  "author": "7078731+igrek8@users.noreply.github.com",
+  "keywords": [
+    "mongodb",
+    "jsonschema",
+    "validator"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/igrek8/mongodb-json-schema-4#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/igrek8/mongodb-json-schema-4"
+  },
+  "bugs": {
+    "url": "https://github.com/igrek8/mongodb-json-schema-4/issues"
+  },
+  "main": "./dist/src/index.js",
+  "types": "./dist/src/index.d.ts",
+  "files": [
+    "./dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest ./src"
+  },
+  "devDependencies": {
+    "ajv": "8.12.0",
+    "ajv-formats": "2.1.1",
+    "typescript": "5.2.2",
+    "vitest": "0.34.3"
+  }
+}
